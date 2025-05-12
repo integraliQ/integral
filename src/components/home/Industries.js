@@ -45,7 +45,7 @@ const IndustriesSection = () => {
           </h2>
           <p className="text-lg text-gray-400 max-w-2xl leading-relaxed mb-12">
             integral<span className="text-cyan-300 font-semibold">iQ</span> empowers ambitious enterprises to thrive in a connected,
-            intelligent future with solutions deeply rooted in your industry's DNA.
+            intelligent future with solutions deeply rooted in your industry&apos;s DNA.
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">

@@ -19,10 +19,10 @@ export default function HeroSection() {
         transition={{ duration: 0.8 }}
       >
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight">
-          Future-ready Solutions<br />for a Digital Tomorrow
+          Future-ready Solutions<br/>for a Digital Tomorrow
         </h1>
         <p className="mt-6 text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto">
-          Empowering enterprises with intelligent technology and visionary strategies to shape tomorrow's success.
+          Empowering enterprises with intelligent technology and visionary strategies to shape tomorrow&apos;s success.
         </p>
         <div className="mt-8">
           <button className="bg-white text-gray-900 font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-gray-200 transition-all">

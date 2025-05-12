@@ -12,7 +12,7 @@ export default function ContactPage() {
                         Start a Conversation
                     </h2>
                     <p className="text-gray-400 mt-4 text-lg max-w-xl mx-auto">
-                        We're not just here to answer questions. We're here to build solutions with you.
+                        We&apos;re not just here to answer questions. We&apos;re here to build solutions with you.
                     </p>
                 </div>
 
@@ -32,7 +32,7 @@ export default function ContactPage() {
                             <Phone className="text-cyan-400 mt-1" />
                             <div>
                                 <h4 className="text-lg font-medium">Phone</h4>
-                                <p className="text-gray-400">+1 (555) 0182 0147</p>
+                                <p className="text-gray-400">+91 9656250000</p>
                             </div>
                         </div>
 
@@ -40,7 +40,7 @@ export default function ContactPage() {
                             <MapPin className="text-cyan-400 mt-1" />
                             <div>
                                 <h4 className="text-lg font-medium">Office</h4>
-                                <p className="text-gray-400">456 Innovation Park, Tech City</p>
+                                <p className="text-gray-400">7th floor, Capital City, Round North, Thrissur, Kerala 680020</p>
                             </div>
                         </div>
                         
