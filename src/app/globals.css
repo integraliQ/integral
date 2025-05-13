@@ -35,3 +35,8 @@ body {
 .swiper-button-prev:hover {
   color: lightblue !important;
 }
+
+.mobile-blur {
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+}

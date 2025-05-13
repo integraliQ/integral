@@ -17,11 +17,16 @@ const fadeUp = {
 
 export default function AboutSection() {
   return (
-    <section className="relative overflow-hidden bg-[#0a0a0a] text-white py-32 px-6 md:px-20">
-      <div className="absolute inset-0 pointer-events-none">
+    <section className="relative overflow-hidden  text-white py-32 px-6 md:px-20">
+      {/* <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-0 left-1/2 w-[700px] h-[700px] bg-cyan-400/10 blur-[120px] -translate-x-1/2 -translate-y-1/2 rounded-full z-0" />
         <div className="absolute bottom-0 right-0 w-[300px] h-[300px] bg-purple-400/10 blur-[80px] rounded-full z-0" />
-      </div>
+      </div> */}
+
+      {/* <div className="absolute inset-0 pointer-events-none">
+        <div className="absolute w-[800px] h-[800px] bg-cyan-400/10 rounded-full blur-[120px] top-[-20%] left-[-10%] z-0" />
+        <div className="absolute w-[600px] h-[600px] bg-blue-500/10 rounded-full blur-[100px] bottom-[-10%] right-[-10%] z-0" />
+      </div> */}
 
       <div className="relative z-10 max-w-[1400px] mx-auto text-center">
         <motion.h2
@@ -29,9 +34,9 @@ export default function AboutSection() {
           whileInView="show"
           viewport={{ once: true }}
           variants={fadeUp}
-          className="text-4xl md:text-5xl font-semibold leading-tight mb-6 tracking-tight"
+          className="text-3xl md:text-4xl font-semibold leading-tight mb-6 tracking-tight"
         >
-          Who We Are at <span className="text-cyan-400">integraliQ</span>
+          We Are at integral<span className="text-cyan-400">iQ</span>
         </motion.h2>
 
         <motion.p
@@ -39,9 +44,9 @@ export default function AboutSection() {
           whileInView="show"
           viewport={{ once: true }}
           variants={fadeUp}
-          className="text-lg text-gray-400 max-w-3xl mx-auto mb-14"
+          className="text-base text-gray-400 max-w-3xl mx-auto mb-14"
         >
-          We’re not just a consultancy — we are your strategic transformation partner. Powered by vision, driven by technology, and grounded in impact.
+          We&apos;re not just a consultancy we are your strategic transformation partner. Powered by vision, driven by technology, and grounded in impact.
         </motion.p>
 
         <div className="grid md:grid-cols-3 gap-12 text-left">
@@ -66,9 +71,9 @@ export default function AboutSection() {
               whileInView="show"
               viewport={{ once: true }}
               variants={fadeUp}
-              className="bg-white/5 border border-white/10 rounded-2xl p-8 hover:shadow-xl hover:shadow-cyan-500/10 transition"
+              className="bg-white/5 border border-white/10 rounded-tl-sm rounded-br-4xl hover:rounded-b-none p-8 hover:shadow-xl text-white hover:text-cyan-300 hover:shadow-cyan-400/6 transition-all duration-500"
             >
-              <h3 className="text-xl font-semibold text-white mb-4 tracking-wide">
+              <h3 className="text-lg font-semibold mb-4 tracking-wide">
                 {item.title}
               </h3>
               <p className="text-sm text-gray-300 leading-relaxed">

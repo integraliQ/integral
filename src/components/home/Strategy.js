@@ -29,7 +29,7 @@
 
     export default function SolutionsDark() {
     return (
-        <section className="py-28 bg-[#0d1117] text-white">
+        <section className="py-28  text-white">
         <div className="max-w-7xl mx-auto px-6 sm:px-12">
             <motion.div
             initial={{ y: 30 }}

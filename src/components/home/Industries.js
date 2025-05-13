@@ -25,14 +25,17 @@ const fadeUp = {
 
 const IndustriesSection = () => {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-black via-gray-900 to-[#0c0c0c] text-white py-24 px-6 md:px-20">
-      {/* Background glow circles */}
-      <div className="absolute inset-0 pointer-events-none">
+    <section className="relative overflow-hidden text-white py-24 px-6 md:px-20">
+{/*     <section className="relative overflow-hidden bg-gradient-to-br from-black via-gray-900 to-[#0c0c0c] text-white py-24 px-6 md:px-20">
+ */}      {/* Background glow circles */}
+     {/*  <div className="absolute inset-0 pointer-events-none">
         <div className="absolute w-[800px] h-[800px] bg-cyan-400/10 rounded-full blur-[120px] top-[-20%] left-[-10%] z-0" />
         <div className="absolute w-[600px] h-[600px] bg-blue-500/10 rounded-full blur-[100px] bottom-[-10%] right-[-10%] z-0" />
-      </div>
+      </div> */}
 
       <div className="relative z-10 max-w-[1400px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+        
+        
         {/* Text Column */}
         <motion.div
           initial="hidden"

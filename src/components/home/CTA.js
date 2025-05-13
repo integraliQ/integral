@@ -8,17 +8,17 @@ export default function CTA() {
           Take the Next Step Towards Excellence
         </h2>
         <p className="text-lg text-gray-400 mb-10 max-w-2xl mx-auto">
-          Unlock your business’s full potential with innovative strategies and cutting-edge solutions. We’re ready when you are.
+          Unlock your business&apos;s full potential with innovative strategies and cutting-edge solutions. We’re ready when you are.
         </p>
         <div className="flex justify-center gap-6">
           <a
-            href="#contact"
+            href="/contact"
             className="bg-transparent text-gray-100 hover:text-cyan-300 border border-gray-200 hover:border-cyan-300 py-3 px-8 rounded-lg transition-all duration-300 font-medium tracking-wide text-sm"
           >
             Contact Us
           </a>
           <a
-            href="#schedule-demo"
+            href="/contact"
             className="text-gray-100 hover:text-cyan-300 py-3 px-8 border border-transparent hover:border-cyan-300 rounded-lg transition-all duration-300 font-medium tracking-wide text-sm"
           >
             Request a Demo

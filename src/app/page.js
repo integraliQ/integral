@@ -12,15 +12,19 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
+    <div className="relative bg-gradient-to-br from-black via-gray-900 to-[#0c0c0c]">
+      <div className="absolute inset-0 pointer-events-none">
+        <div className="absolute w-[800px] h-[800px] bg-cyan-400/10 rounded-full blur-[120px] top-[-20%] left-[-10%] z-0" />
+        <div className="absolute w-[600px] h-[600px] bg-blue-500/10 rounded-full blur-[100px] bottom-[-10%] right-[-10%] z-0" />
+      </div>
       <HeroSection/>
       <StrategyHighlights/>
       <IndustriesSection/>
-      <CaseStudiesSection/>
-      <TestimonialsSection/>
-      <AboutSection/>
-      <ImpactMetricsSection/>
       <WhyIntegraliQ/>
+      <AboutSection/>
+      <CaseStudiesSection/>
+      {/* <TestimonialsSection/> */}
+      <ImpactMetricsSection/>
     </div>
   );
 }

@@ -8,19 +8,19 @@ const caseStudies = [
     title: 'AI-Powered CX Transformation',
     description: 'Revolutionized a global retailer’s customer journey using machine learning and predictive analytics.',
     industry: 'Retail & E-commerce',
-    img: '/images/case-retail.jpg',
+    img: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
   },
   {
     title: 'Cloud Migration at Scale',
     description: 'Migrated critical workloads to a hybrid cloud infrastructure for a leading banking institution.',
     industry: 'Banking & Finance',
-    img: '/images/case-cloud.jpg',
+    img: 'https://images.pexels.com/photos/17323801/pexels-photo-17323801/free-photo-of-network-rack.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
   },
   {
     title: 'Green Tech for Smart Cities',
     description: 'Designed sustainable IoT ecosystems for a smart city initiative, reducing carbon output by 34%.',
     industry: 'Smart Cities',
-    img: '/images/case-smartcity.jpg',
+    img: 'https://img.freepik.com/premium-photo/factory-conveyor-with-empty-glass-bottles-recycling_1235831-78654.jpg',
   },
 ];
 
@@ -35,8 +35,8 @@ const fadeUp = {
 
 const CaseStudiesSection = () => {
   return (
-    <section className="relative bg-gradient-to-b from-black via-[#0e0e0e] to-black text-white py-24 px-6 md:px-20 overflow-hidden">
-      <div className="absolute w-[600px] h-[600px] bg-purple-500/10 rounded-full blur-[100px] top-[-20%] left-[60%] z-0 pointer-events-none" />
+    <section className="relative  text-white py-24 px-6 md:px-20 overflow-hidden">
+      {/* <div className="absolute w-[600px] h-[600px] bg-purple-500/10 rounded-full blur-[100px] top-[-20%] left-[60%] z-0 pointer-events-none" /> */}
 
       <div className="relative z-10 max-w-[1400px] mx-auto">
         <motion.h2
@@ -44,7 +44,7 @@ const CaseStudiesSection = () => {
           whileInView="show"
           viewport={{ once: true }}
           variants={fadeUp}
-          className="text-4xl md:text-5xl font-semibold mb-6"
+          className="text-3xl md:text-4xl font-semibold mb-6"
         >
           Case Studies
         </motion.h2>
@@ -56,8 +56,8 @@ const CaseStudiesSection = () => {
           variants={fadeUp}
           className="text-lg text-gray-400 max-w-2xl mb-14"
         >
-          Real-world impact, measurable outcomes. Explore how integrali
-          <span className="text-cyan-300">Q</span> drives transformation across sectors.
+          Real-world impact, measurable outcomes. Explore how integral
+          <span className="text-cyan-300">iQ</span> drives transformation across sectors.
         </motion.p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">

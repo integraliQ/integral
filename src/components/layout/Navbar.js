@@ -80,10 +80,11 @@ export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-black/30 backdrop-blur-sm shadow-sm border-b border-gray-800">
-      <div className="max-w-[1600px] mx-auto px-8 py-4 flex justify-between items-center">
+    <header className="sticky top-0 z-50 bg-black/30 border-b  backdrop-blur-sm shadow-sm border-gray-800">
+      <div className="max-w-[1600px] relative mx-auto px-8 py-4 z-0 flex justify-between items-center">
+      
         <div className="text-2xl font-bold tracking-tight text-gray-50">
-          integral<span className="text-cyan-300">iQ</span>
+          integral<span className="text-cyan-300]">iQ</span>
         </div>
 
         {/* Desktop Navigation */}
@@ -148,7 +149,7 @@ export default function Navbar() {
                   exit={{ opacity: 1, y: 10 }}
                   onMouseEnter={() => setOpenMenu(openMenu)}
                   onMouseLeave={() => setOpenMenu(null)}
-                  className="fixed left-0 top-14 w-full bg-black/30 backdrop-blur-sm shadow-xl border-t border-gray-700 py-10 px-20 z-40"
+                  className="fixed left-0 top-16 w-full bg-black/30 mobile-blur backdrop-blur-sm shadow-sm border-t border-gray-700 py-10 px-20 z-50"
                 >
                   <div className="max-w-[1400px] mx-auto grid grid-cols-4 gap-10">
                     {navItems
